@@ -15,7 +15,7 @@ for t in times:
 T=times[0][0]
 active=list(times.pop(0))
 waiting=[]
-BT=eval(input("Enter Burst Time"))
+BT=eval(input("Enter Preemption Time "))
 done=[]
 ##total = 8 #############Comment this
 while T<total:

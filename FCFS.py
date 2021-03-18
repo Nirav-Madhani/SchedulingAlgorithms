@@ -8,9 +8,11 @@ for i in range(n):
 times.sort()
 
 
-arrival=[0,2,4,6,8]
-burst=[3,6,4,5,2]
-pid=[1,2,3,4,5]
+arrival=[]#[0,2,4,6,8]
+burst=[]#[3,6,4,5,2]
+pid=[]#[1,2,3,4,5]
+
+
 for  t in times:
     arrival.append(t[0])
     burst.append(t[1])
